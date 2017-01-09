@@ -3,4 +3,4 @@
 
 [Elements Project Website]
 
-(https://macaryan.github.io/IXD301---Elements-Project/index.html)
+(https://macaryan.github.io/IXD301---ElementsExcellence/index.html)
