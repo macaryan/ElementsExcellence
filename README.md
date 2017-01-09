@@ -1,6 +1,6 @@
-# IXD301---Elements-Project[Portfolio Website]
+# IXD301---Elements-Project
 
 
 [Elements Project Website]
 
-(https://macaryan.github.io/IXD301---ElementsExcellence/index.html)
+(https://macaryan.github.io/ElementsExcellence/index.html)
