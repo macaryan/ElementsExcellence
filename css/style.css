@@ -1,0 +1,870 @@
+* {padding: 0;
+   margin: 0;}
+
+ body {
+     
+    font-family: 'Khula', sans-serif;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+hr {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+
+/*------------------------------------------
+INDEX
+--------------------------------------------*/
+
+.index {
+    text-align: center;
+    background-color: #4b4b4b;
+    padding-top: 355px;
+    padding-bottom: 355px;
+}
+
+.index a{
+    color: white;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.index a:hover {
+    color: red;
+}
+
+.index p{
+    font-size: 20px;
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px 0;
+    color: white;
+}
+
+/*------------------------------------------
+HEADER/NAV
+--------------------------------------------*/
+
+header {
+    background-color:#666;
+    height: 50px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    bottom: 0;
+    width: 150px;
+    background-color: #white;
+    transform: translate3d(-150px, 0, 0);
+    transition: transform 0.4s ease;
+}
+.active-nav nav {
+    transform: translate3d(0, 0, 0);
+}
+nav ul {
+    list-style: none;
+    margin-top: 50px;
+}
+
+nav ul li { 
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 1em;
+    margin-top: 100px;
+    text-decoration: none;
+
+}
+
+
+nav a:hover {
+    color: purple;
+    
+}
+
+.nav-toggle-btn {
+    display: block;
+    position: absolute;
+    left: 150;
+    width: 60px;
+    height: 50px;
+    background-color: #666;
+}
+
+.navicon {
+    margin-top: -5px;
+}
+
+/*------------------------------------------
+CONTENT MOVE
+--------------------------------------------*/
+
+
+.content {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    transition: transform 0.4s ease;
+}
+.active-nav .content {
+    transform: translate3d(150px, 0, 0);
+}
+
+/*------------------------------------------
+IMAGES
+--------------------------------------------*/
+
+.backgroundh img {
+    padding-bottom: 20px;
+    padding-left: 70px;
+}
+
+.image {
+    
+    position: relative;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+
+/*------------------------------------------
+TEXT
+--------------------------------------------*/
+
+.hydcon h1 {
+    margin-bottom: -1px;
+    font-size: 1.5em;
+}
+
+.po11 h1 {
+    font-family: 'Khula', sans-serif;
+    font-size: 30px;
+    
+}
+
+.po11 h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    
+}
+
+.ppt h1 {
+    margin-bottom: -1px;
+    font-size: 1.5em;
+}
+
+/*------------------------------------------
+OPENING CONTENT
+--------------------------------------------*/
+
+.title {
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: 15px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    font-family: 'Khula', sans-serif;
+    
+}
+
+div.rectangle {
+     width: 3px;
+     height: 70px;
+     background-color: black;
+     position relative;
+     left: 100px;
+}
+
+/*------------------------------------------
+BACKGROUND COLORS
+--------------------------------------------*/
+
+.backgroundh {
+    background-color: #62affe;
+    margin-top: -32px;
+}
+
+.backgroundhy {
+    background-color: #3F85CE;
+    margin-top:
+}
+
+.backgroundhyd {
+    background-color: #62affe;
+    
+}
+
+
+
+.backgroundhe {
+    background-color: #FF4C4C;
+    margin-top: -32px;
+}
+
+.backgroundhel {
+    background-color: #C34E4E;
+}
+
+.backgroundheli {
+    background-color: #FF4C4C;
+}
+
+.backgroundl {
+    background-color: #85FF95;
+    margin-top: -32px;
+}
+
+.backgroundli {
+    background-color: #88DF8A;
+}
+
+.backgroundlit {
+    background-color: #85FF95;
+}
+
+.backgroundo {
+    background-color: #65FDFF;
+    margin-top: -32px;
+}
+
+.backgroundox {
+    background-color: #39E6E8;
+}
+
+.backgroundoxy {
+    background-color: #65FDFF;
+}
+
+.backgrounds {
+    background-color: #F3FF8F;
+    margin-top: -32px;
+}
+
+.backgroundse {
+    background-color: #E6EA73;
+}
+
+.backgroundsel {
+    background-color: #F3FF8F;
+}
+
+
+.hydcon {
+    background-color: transparent;
+    max-width: 65%;
+    display: inline-block;
+    margin-top: 10px;
+   
+   
+}
+
+
+.pc {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+/*------------------------------------------
+TABLE POSITIONING
+--------------------------------------------*/
+
+.po1 {
+    display: inline-block;
+    padding-left: 100px;
+  
+}
+
+.po11 {
+    position: relative;
+    top: -90px;
+    left: 20px;
+}
+
+
+.po2 {
+   display: inline-block;
+   padding-left: 145px;
+
+}
+
+
+.po3 {
+   display: inline-block;
+   padding-left: 136px;
+    padding-right: 201px;
+}
+
+.po4 {
+    display: inline-block;
+    padding-left: 100px;
+  
+}
+
+.po5 {
+   display: inline-block;
+   padding-left: 202px;
+
+}
+
+.po6 {
+   display: inline-block;
+   padding-left: 145px;
+
+}
+
+
+
+/*------------------------------------------
+PHYSICAL PROPERTIES
+--------------------------------------------*/
+
+.pp {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.ppt {
+    background-color: transparent;
+    max-width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+   
+}
+
+.pp1 {
+    display: inline-block;
+    padding-left: 80px;
+  
+}
+
+.pp2 {
+   display: inline-block;
+   padding-left: 150px;
+
+}
+
+
+.pp3 {
+   display: inline-block;
+   padding-left: 180px;
+}
+
+.pp4 {
+    display: inline-block;
+    padding-left: 150px;
+  
+}
+
+.pp5 {
+   display: inline-block;
+   padding-left: 165px;
+
+}
+
+.pp6 {
+   display: inline-block;
+   padding-left: 80px;
+
+}
+
+.pp7 {
+   display: inline-block;
+   padding-left: 75px;
+
+}
+
+.pp8 {
+   display: inline-block;
+   padding-left: 60px;
+
+}
+
+.pp9 {
+   display: inline-block;
+   padding-left: 138px;
+
+}
+
+.pp10 {
+   display: inline-block;
+   padding-left: 140px;
+
+}
+
+
+
+/*------------------------------------------
+HYDROGEN
+--------------------------------------------*/
+
+.pp {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.ppt {
+    background-color: transparent;
+    max-width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+   
+}
+
+.hh1 {
+    display: inline-block;
+    padding-left: 80px;
+  
+}
+
+.hh2 {
+   display: inline-block;
+   padding-left: 150px;
+
+}
+
+
+.hh3 {
+   display: inline-block;
+   padding-left: 180px;
+}
+
+.hh4 {
+    display: inline-block;
+    padding-left: 150px;
+  
+}
+
+.hh5 {
+   display: inline-block;
+   padding-left: 165px;
+
+}
+
+.hh6 {
+   display: inline-block;
+   padding-left: 80px;
+
+}
+
+.hh7 {
+   display: inline-block;
+   padding-left: 148px;
+
+}
+
+.hh8 {
+   display: inline-block;
+   padding-left: 116px;
+
+}
+
+.hh9 {
+   display: inline-block;
+   padding-left: 90px;
+
+}
+
+.hh10 {
+   display: inline-block;
+   padding-left: 102px;
+
+}
+
+
+.contentwrapper {
+    max-width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.maincontenth {
+    max-width:100%;
+    margin: 0 auto;
+}
+
+.contentwrapper h1 {
+   color:;
+   padding-bottom: 5px;
+   font-family: 'Lato', sans-serif;
+}
+
+.contentwrapper h2 {
+   color: ;
+   padding-bottom: 5px;
+   font-family: 'Lato', sans-serif;
+}
+
+.contentwrapper p {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size: 18px;
+}
+
+strong {
+    text-decoration: underline;
+}
+
+strong:hover {
+    color: white;
+}
+
+.combustion {
+    color: ;
+    padding-left: 400px;
+    margin-bottom: 10px;
+}
+
+
+/*------------------------------------------
+HELIUM
+--------------------------------------------*/
+
+.he7 {
+   display: inline-block;
+   padding-left: 76px;
+
+}
+
+.he8 {
+   display: inline-block;
+   padding-left: 58px;
+
+}
+
+.he9 {
+   display: inline-block;
+   padding-left: 138px;
+
+}
+
+.he10 {
+   display: inline-block;
+   padding-left: 141px;
+
+}
+
+.maincontenthe {
+    max-width:80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.maincontenthe h1 {
+   color: #FF4C4C;
+   padding-bottom: 5px;
+   font-family: 'Lato', sans-serif;
+}
+
+.maincontenthe h2 {
+   color: #c34e4e;
+   padding-bottom: 5px;
+   font-family: 'Lato', sans-serif;
+}
+
+.maincontenthe p {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size: 18px;
+}
+
+/*------------------------------------------
+LITHIUM
+--------------------------------------------*/
+
+.l5 {
+   display: inline-block;
+    padding-left: 190px; }
+
+.l6 {
+   display: inline-block;
+    padding-left: 90px; }
+
+
+.l7 {
+   display: inline-block;
+   padding-left: 100px;
+
+}
+
+.l8 {
+   display: inline-block;
+   padding-left: 75px;
+
+}
+
+.l9 {
+   display: inline-block;
+   padding-left: 140px;
+
+}
+
+.l10 {
+   display: inline-block;
+   padding-left: 201px;
+
+}
+
+.maincontentl {
+    max-width:80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.maincontentl h1 {
+   color: #85FF95;
+   padding-bottom: 5px;
+   font-family: 'Lato', sans-serif;
+}
+
+.maincontentl h2 {
+   color: #88df8a;
+   padding-bottom: 5px;
+   font-family: 'Lato', sans-serif;
+}
+
+.maincontentl p {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size: 18px;
+}
+
+.h2center {
+    text-align: center;
+}
+
+/*------------------------------------------
+SELENIUM
+--------------------------------------------*/
+
+.s7 {
+   display: inline-block;
+   padding-left: 150px;
+
+}
+
+.s8 {
+   display: inline-block;
+   padding-left: 64px;
+
+}
+
+.s9 {
+   display: inline-block;
+   padding-left: 100px;
+
+}
+
+.s10 {
+   display: inline-block;
+   padding-left: 160px;
+
+}
+
+.maincontents {
+    max-width:80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.maincontents h1 {
+   color: #F3FF8F;
+   padding-bottom: 5px;
+   font-family: 'Lato', sans-serif;
+}
+
+.maincontents h2 {
+   color: #E6EA73;
+   padding-bottom: 5px;
+   font-family: 'Lato', sans-serif;
+}
+
+.maincontents p {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size: 18px;
+}
+
+/*------------------------------------------
+OXYGEN
+--------------------------------------------*/
+
+.o7 {
+   display: inline-block;
+   padding-left: 50px;
+
+}
+
+.o8 {
+   display: inline-block;
+   padding-left: 64px;
+
+}
+
+.o9 {
+   display: inline-block;
+   padding-left: 92px;
+
+}
+
+.o10 {
+   display: inline-block;
+   padding-left: 110px;
+
+}
+
+.maincontento {
+    max-width:80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.maincontento h1 {
+   color: #65FDFF;
+   padding-bottom: 5px;
+   font-family: 'Lato', sans-serif;
+}
+
+.maincontento h2 {
+   color: #39E6E8;
+   padding-bottom: 5px;
+   font-family: 'Lato', sans-serif;
+}
+
+.maincontento p {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size: 18px;
+}
+
+/*------------------------------------------
+PHASES
+--------------------------------------------*/
+
+.phases img {
+   display: inline-block;
+   padding-left: 130px;
+
+}
+
+.phasesinline h2 {
+    padding-left: 80px;
+    display: inline;
+    max-width: 30%;
+}
+
+.ppp p {
+    float: left;
+    max-width: 20%;
+    font-size: 14px;
+    padding-left: 80px;
+}
+
+.pppp p {
+    float: left;
+    max-width: 20%;
+    font-size: 14px;
+    padding-left: 55px;
+}
+
+.ppppp p {
+    float: left;
+    max-width: 20%;
+    font-size: 14px;
+    padding-left: 33px;
+}
+
+.pppppp p {
+    float: left;
+    max-width: 20%;
+    font-size: 14px;
+    padding-left: 22px;
+}
+
+
+
+/*------------------------------------------
+ISOToPES
+--------------------------------------------*/
+
+
+.isotopes1 {
+    padding-top: 30px;
+    display: block;
+}
+
+
+.isotopes {
+   display: block;
+    margin: 0 auto;
+}
+
+
+
+  
+/*--Periodic Properties--*/
+
+
+
+
+
+
+/*--footer--*/
+
+.footerh {
+    text-align: center;
+    background-color: #62affe;
+    padding: 100px;
+}
+
+.footerh p {
+    padding: 100px 0;
+}
+
+.footerhe {
+    text-align: center;
+    background-color: #FF4C4C;
+    padding: 100px;
+}
+
+.footerl {
+    text-align: center;
+    background-color: #85FF95;
+    padding: 100px;
+}
+
+.footero {
+    text-align: center;
+    background-color: #65FDFF;
+    padding: 100px;
+}
+
+.footers {
+    text-align: center;
+    background-color: #F3FF8F;
+    padding: 100px;
+}
+
+
+
+
+
